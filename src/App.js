@@ -14,7 +14,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <label htmlFor="token">Access Token:</label>
+        <label htmlFor="token">
+          <a href="https://cloud.lifx.com/settings">Access Token:</a>
+        </label>
         <input
           id="token"
           type="text"
